@@ -1,0 +1,60 @@
+body {
+  background-color: #fff0f6;
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(255, 0, 128, 0.9);
+}
+
+.btn {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.btn-primary {
+  background-color: #ff5099 !important;
+  border-color: #ff5099 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #ff4794 !important;
+  border-color: #ff4794 !important;
+  outline: none !important;
+}
+
+.form-control {
+  border-radius: 10px;
+  border-color: #ff5099 !important;
+}
+
+.form-control:focus {
+  border-color: #ff5099 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 80, 182, 0.25);
+}
+h2 {
+  color: #ff4794;
+}
+.alert {
+  margin-top: 20px;
+}
+.link {
+  color: #ff4794;
+}
+.link:hover {
+  color: #ff4794;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  p {
+    font-size: small;
+  }
+}
